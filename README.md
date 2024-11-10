@@ -1,4 +1,6 @@
-# Myngapp
+# Myngapp in Github is nxHello: git@github.com:XiaolinSong5/nxHello.git
+
+project.json is similar as angular.json
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -13,22 +15,22 @@
 
 ## Run tasks
 
-To run the dev server for your app, use:
+To run the dev server for your app, use: if you have installed nx locally, then use nx, else use npx 
 
 ```sh
-npx nx serve myngapp
+npx/nx serve myngapp
 ```
 
 To create a production bundle:
 
 ```sh
-npx nx build myngapp
+npx/nx build myngapp
 ```
 
 To see all available targets to run for a project, run:
 
 ```sh
-npx nx show project myngapp
+npx/nx show project myngapp
 ```
 
 These targets are either [inferred automatically](https://nx.dev/concepts/inferred-tasks?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or defined in the `project.json` or `package.json` files.
